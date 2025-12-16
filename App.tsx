@@ -45,7 +45,7 @@ const App: React.FC = () => {
       </main>
       
       <footer className="bg-secondary py-6 text-center text-muted text-sm border-t border-border transition-colors duration-300">
-        <p>© {new Date().getFullYear()} Samuel Girma Megra. Built with React, Tailwind, and Gemini AI.</p>
+        <p>© {new Date().getFullYear()} Samuel Girma Megra. Built with React & Tailwind CSS.</p>
       </footer>
 
       {/* Floating AI Assistant */}
