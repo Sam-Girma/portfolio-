@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Samuel Girma Megra | Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        darkMode: 'class',
+        theme: {
+          extend: {
+            colors: {
+              primary: 'var(--bg-primary)',
+              secondary: 'var(--bg-secondary)',
+              heading: 'var(--text-heading)',
+              body: 'var(--text-body)',
+              muted: 'var(--text-muted)',
+              border: 'var(--border-color)',
+              accent: 'var(--accent)',
+              'accent-hover': 'var(--accent-hover)',
+            },
+            fontFamily: {
+              sans: ['Inter', 'sans-serif'],
+            },
+            animation: {
+              'fade-in': 'fadeIn 0.5s ease-out',
+              'slide-up': 'slideUp 0.5s ease-out',
+            },
+            keyframes: {
+              fadeIn: {
+                '0%': { opacity: '0' },
+                '100%': { opacity: '1' },
+              },
+              slideUp: {
+                '0%': { transform: 'translateY(20px)', opacity: '0' },
+                '100%': { transform: 'translateY(0)', opacity: '1' },
+              },
+            },
+          },
+        },
+      };
+    </script>
+    <style>
+      :root {
+        /* Light Mode - Clean & Professional */
+        --bg-primary: #ffffff;
+        --bg-secondary: #f4f4f5;
+        --text-heading: #18181b;
+        --text-body: #3f3f46;
+        --text-muted: #71717a;
+        --border-color: #e4e4e7;
+        --accent: #2563eb;
+        --accent-hover: #1d4ed8;
+      }
+      
+      .dark {
+        /* Dark Mode - Deep & Elegant (Salient Style) */
+        --bg-primary: #000000;
+        --bg-secondary: #111111;
+        --text-heading: #ffffff;
+        --text-body: #d4d4d8;
+        --text-muted: #a1a1aa;
+        --border-color: #27272a;
+        --accent: #38bdf8;
+        --accent-hover: #0ea5e9;
+      }
+
+      /* Custom Scrollbar */
+      ::-webkit-scrollbar {
+        width: 8px;
+      }
+      ::-webkit-scrollbar-track {
+        background: var(--bg-primary);
+      }
+      ::-webkit-scrollbar-thumb {
+        background: var(--border-color);
+        border-radius: 4px;
+      }
+      ::-webkit-scrollbar-thumb:hover {
+        background: var(--text-muted);
+      }
+      
+      body {
+        transition: background-color 0.3s ease, color 0.3s ease;
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "@google/genai": "https://aistudiocdn.com/@google/genai@^1.30.0",
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "lucide-react": "https://aistudiocdn.com/lucide-react@^0.554.0"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body class="bg-primary text-body font-sans antialiased selection:bg-accent selection:text-white">
+    <div id="root"></div>
+  <script type="module" src="/index.tsx"></script>
+</body>
+</html>
