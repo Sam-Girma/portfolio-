@@ -4,7 +4,6 @@ import { Hero } from './components/Hero';
 import { Experience } from './components/Experience';
 import { Skills } from './components/Skills';
 import { Contact } from './components/Contact';
-import { AIChat } from './components/AIChat';
 
 const App: React.FC = () => {
   // Initialize theme from local storage or system preference
@@ -47,9 +46,6 @@ const App: React.FC = () => {
       <footer className="bg-secondary py-6 text-center text-muted text-sm border-t border-border transition-colors duration-300">
         <p>© {new Date().getFullYear()} Samuel Girma Megra. Built with React & Tailwind CSS.</p>
       </footer>
-
-      {/* Floating AI Assistant */}
-      <AIChat />
     </div>
   );
 };

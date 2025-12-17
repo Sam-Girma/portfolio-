@@ -29,7 +29,16 @@ export const EXPERIENCE_DATA: ExperienceItem[] = [
       'Created a dashboard for monitoring multiple cows\' health status and reproductive cycles in real-time.'
     ],
     highlight: 'Successfully developed a livestock management system that helps farmers optimize milk production through timely health monitoring and insemination alerts.',
-    technologies: ['Django', 'React', 'JavaScript', 'HTML/CSS', 'MySQL', 'Afro Message API']
+    technologies: ['Django', 'React', 'JavaScript', 'HTML/CSS', 'MySQL', 'Afro Message API'],
+    images: [
+      '/cowsville/Screenshot 2025-12-16 at 1.03.52 in the afternoon.png',
+      '/cowsville/Screenshot 2025-12-16 at 1.04.07 in the afternoon.png',
+      '/cowsville/Screenshot 2025-12-16 at 1.04.20 in the afternoon.png',
+      '/cowsville/Screenshot 2025-12-16 at 1.04.29 in the afternoon.png',
+      '/cowsville/Screenshot 2025-12-16 at 1.04.37 in the afternoon.png',
+      '/cowsville/Screenshot 2025-12-16 at 1.04.49 in the afternoon.png',
+      '/cowsville/Screenshot 2025-12-16 at 1.05.54 in the afternoon.png'
+    ]
   },
   {
     id: 'elunic',
@@ -45,7 +54,18 @@ export const EXPERIENCE_DATA: ExperienceItem[] = [
       'Maintained direct on-call communication with client developers to ensure seamless integration and issue resolution.'
     ],
     highlight: 'Successfully developed and deployed a critical data collection script for Lego used in production defect analysis.',
-    technologies: ['React', 'NestJS', 'MySQL', 'Python', 'Computer Vision', 'TeamViewer']
+    technologies: ['React', 'NestJS', 'MySQL', 'Python', 'Computer Vision', 'TeamViewer'],
+    images: [
+      '/elunic/Screenshot 2025-12-16 at 1.27.20 in the afternoon.png',
+      '/elunic/Screenshot 2025-12-16 at 1.27.44 in the afternoon.png',
+      '/elunic/Screenshot 2025-12-16 at 1.29.03 in the afternoon.png',
+      '/elunic/Screenshot 2025-12-16 at 1.29.29 in the afternoon.png',
+      '/elunic/Screenshot 2025-12-16 at 2.09.14 in the afternoon.png',
+      '/elunic/Screenshot 2025-12-16 at 2.09.50 in the afternoon.png',
+      '/elunic/Screenshot 2025-12-16 at 2.09.56 in the afternoon.png',
+      '/elunic/Screenshot 2025-12-16 at 2.10.26 in the afternoon.png',
+      '/elunic/Screenshot 2025-12-16 at 2.10.42 in the afternoon.png'
+    ]
   },
   {
     id: 'turing',
@@ -61,7 +81,16 @@ export const EXPERIENCE_DATA: ExperienceItem[] = [
       'Contributed to improving LLM performance through systematic evaluation and feedback loops.'
     ],
     highlight: 'Led dataset generation and evaluation for Gemini LLM, focusing on visualization capabilities and agentic workflow assessments.',
-    technologies: ['Python', 'RLHF', 'Gemini', 'Matplotlib', 'Altair', 'LLM Evaluation', 'Dataset Generation', 'API Simulation']
+    technologies: ['Python', 'RLHF', 'Gemini', 'Matplotlib', 'Altair', 'LLM Evaluation', 'Dataset Generation', 'API Simulation'],
+    images: [
+      '/turing/Screenshot 2025-12-16 at 2.02.55 in the afternoon.png',
+      '/turing/Screenshot 2025-12-16 at 2.03.43 in the afternoon.png',
+      '/turing/Screenshot 2025-12-16 at 2.04.12 in the afternoon.png',
+      '/turing/Screenshot 2025-12-16 at 2.04.24 in the afternoon.png',
+      '/turing/Screenshot 2025-12-16 at 2.04.55 in the afternoon.png',
+      '/turing/Screenshot 2025-12-16 at 2.05.41 in the afternoon.png',
+      '/turing/Screenshot 2025-12-16 at 2.07.18 in the afternoon.png'
+    ]
   },
   {
     id: 'divoorah',
@@ -76,57 +105,81 @@ export const EXPERIENCE_DATA: ExperienceItem[] = [
       'Transitioned hotfixes into permanent solution tickets to improve long-term system reliability.'
     ],
     highlight: 'Diagnosed and fixed a complex backend logic error preventing discount coupons from applying, directly rescuing a marketing campaign.',
-    technologies: ['React', 'Node.js', 'Live Ops', 'Bug Fixing', 'Slack']
+    technologies: ['React', 'Node.js', 'Live Ops', 'Bug Fixing', 'Slack'],
+    images: [
+      '/divoora/Screenshot 2025-12-16 at 1.53.16 in the afternoon.png',
+      '/divoora/Screenshot 2025-12-16 at 1.53.36 in the afternoon.png',
+      '/divoora/Screenshot 2025-12-16 at 1.54.49 in the afternoon.png',
+      '/divoora/Screenshot 2025-12-16 at 1.55.08 in the afternoon.png',
+      '/divoora/Screenshot 2025-12-16 at 1.55.18 in the afternoon.png',
+      '/divoora/Screenshot 2025-12-16 at 1.56.03 in the afternoon.png'
+    ]
   },
   {
     id: 'escalate',
     company: 'Escalate',
-    role: 'Product Manager',
+    role: 'Product Manager & Full Stack Developer',
     type: 'Product Management',
-    description: 'Led the product workflow and documentation for application development projects.',
+    description: 'Led the product workflow and documentation for application development projects. Also developed RateEat, an internal cafeteria rating system for Elunic.',
     achievements: [
+      'Developed RateEat: A full-stack rating application using React and NestJS for employee meal feedback at Elunic.',
+      'Built an admin dashboard for cafeteria managers to view ratings, comments, and track meal popularity trends.',
       'Authored comprehensive Product Requirements Documents (PRDs) on Confluence, detailing the full application workflow.',
       'Conducted initial phase meetings with customers to gather requirements and validate product ideas.',
       'Established a feedback loop with end-users to continuously improve the application based on real-world usage patterns.',
       'Facilitated constant team communication to ensure development aligned with the product roadmap.'
     ],
-    technologies: ['Product Management', 'Confluence', 'Agile', 'User Research', 'Jira']
+    highlight: 'Successfully improved employee satisfaction and cafeteria food quality through data-driven feedback system (RateEat).',
+    technologies: ['Product Management', 'React', 'NestJS', 'Confluence', 'Agile', 'User Research', 'Jira'],
+    images: [
+      '/rateeat/Screenshot 2025-12-16 at 1.21.12 in the afternoon.png',
+      '/rateeat/Screenshot 2025-12-16 at 1.21.25 in the afternoon.png',
+      '/rateeat/Screenshot 2025-12-16 at 1.21.35 in the afternoon.png',
+      '/rateeat/Screenshot 2025-12-16 at 1.21.47 in the afternoon.png',
+      '/rateeat/Screenshot 2025-12-16 at 1.22.17 in the afternoon.png'
+    ]
   }
 ];
 
 export const SKILL_CATEGORIES: SkillCategory[] = [
   {
     title: "Frontend",
-    skills: ["React.js", "Angular", "TypeScript", "Tailwind CSS", "HTML5/CSS3"]
+    skills: [
+      { name: "React.js", level: 95 },
+      { name: "HTML5/CSS3", level: 95 },
+      { name: "TypeScript", level: 90 },
+      { name: "Tailwind CSS", level: 90 },
+      { name: "Angular", level: 85 }
+    ]
   },
   {
     title: "Backend",
-    skills: ["NestJS", "Node.js", "Python", "Django", "Spring Boot", "MySQL"]
+    skills: [
+      { name: "NestJS", level: 95 },
+      { name: "Django", level: 95 },
+      { name: "Node.js", level: 85 },
+      { name: "FastAPI", level: 80 },
+      { name: "Spring Boot", level: 75 }
+    ]
   },
   {
-    title: "Tools & DevOps",
-    skills: ["Git", "Jira", "Trello", "Google Teams", "TeamViewer", "Confluence"]
+    title: "Databases",
+    skills: [
+      { name: "MySQL", level: 90 },
+      { name: "SQL", level: 90 },
+      { name: "PostgreSQL", level: 85 },
+      { name: "MongoDB", level: 80 }
+    ]
   },
   {
-    title: "Soft Skills",
-    skills: ["Technical Support", "Client Communication", "Problem Solving", "Product Management"]
+    title: "Tools & Platforms",
+    skills: [
+      { name: "Git/GitLab", level: 90 },
+      { name: "Docker", level: 85 },
+      { name: "Cursor/VS Code", level: 95 },
+      { name: "Claude AI", level: 90 },
+      { name: "Slack", level: 95 },
+      { name: "Jira/Confluence", level: 85 }
+    ]
   }
 ];
-
-export const AI_SYSTEM_INSTRUCTION = `
-You are an AI assistant for Samuel Girma Megra's personal portfolio website. 
-Your goal is to answer questions about Samuel's professional experience, skills, and background based strictly on the provided context.
-
-Context about Samuel:
-- Name: Samuel Girma Megra
-- Roles: Software Engineer, Full Stack Developer, AI/ML Engineer.
-- Key Experience 1: Cowsville at Addis Ababa University Veterinary Campus (Full Stack). Developed a cow health and productivity management system to increase milk production efficiency. Built with Django backend, React frontend, MySQL database, and Afro Message API for notifications. System tracks cow estrus cycles and sends alerts to farmers, inseminators, and veterinarians for timely insemination and health monitoring.
-- Key Experience 2: Elunic (Full Stack). Built React/NestJS apps for AI/Computer Vision (clients: VW, BMW, Lego). Developed Python scripts for Lego image collection. Handled remote deployment.
-- Key Experience 3: Turing (AI/ML Engineer). Worked on SFT dataset generation for large language models through RLHF. Focused on Gemini's visualization capabilities using Matplotlib and Altair. Conducted comparative analysis, dataset crafting, and evaluations. Evaluated agentic workflows of Gemini through simulated APIs.
-- Key Experience 4: Divoorah (Full Stack). Food delivery app support. Fixed critical bugs like broken discount coupons in backend logic.
-- Key Experience 5: Escalate (Product Manager). Wrote PRDs on Confluence, managed workflows, conducted user research.
-
-Tone: Professional, helpful, concise, and friendly.
-If a user asks for contact info, provide his email: ${PERSONAL_INFO.email}.
-If asked about something not in the context, politely say you don't have that information but suggest contacting Samuel directly.
-`;

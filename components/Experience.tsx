@@ -1,6 +1,7 @@
 import React from 'react';
 import { EXPERIENCE_DATA } from '../constants';
 import { Building2, CheckCircle2, Server, Terminal, ChevronRight, Briefcase } from 'lucide-react';
+import { ImageGallery } from './ImageGallery';
 
 export const Experience: React.FC = () => {
   return (
@@ -86,6 +87,14 @@ export const Experience: React.FC = () => {
                     )}
                   </div>
                 </div>
+
+                {/* Image Gallery Section */}
+                {job.images && job.images.length > 0 && (
+                  <div className="mb-6">
+                    <h4 className="text-lg font-semibold text-heading mb-4">Project Gallery</h4>
+                    <ImageGallery images={job.images} projectName={job.company} />
+                  </div>
+                )}
 
                 {/* Technologies Section */}
                 <div className="pt-6 border-t border-border">

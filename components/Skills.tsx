@@ -6,9 +6,10 @@ export const Skills: React.FC = () => {
   const getIcon = (title: string) => {
     switch (title) {
       case 'Frontend': return <Layout className="text-blue-500" />;
-      case 'Backend': return <Database className="text-emerald-500" />;
-      case 'Tools & DevOps': return <Code2 className="text-orange-500" />;
-      default: return <MessageSquare className="text-purple-500" />;
+      case 'Backend': return <Code2 className="text-emerald-500" />;
+      case 'Databases': return <Database className="text-purple-500" />;
+      case 'Tools & Platforms': return <MessageSquare className="text-orange-500" />;
+      default: return <Code2 className="text-gray-500" />;
     }
   };
 
@@ -40,12 +41,13 @@ export const Skills: React.FC = () => {
                 {category.skills.map((skill, idx) => (
                   <div key={idx} className="group">
                     <div className="flex justify-between text-base text-muted mb-2">
-                      <span className="group-hover:text-heading transition-colors font-medium">{skill}</span>
+                      <span className="group-hover:text-heading transition-colors font-medium">{skill.name}</span>
+                      <span className="text-sm opacity-0 group-hover:opacity-100 transition-opacity text-accent">{skill.level}%</span>
                     </div>
                     <div className="h-2 w-full bg-primary rounded-full overflow-hidden border border-border/50">
                       <div 
-                        className="h-full bg-gradient-to-r from-slate-400 to-slate-500 dark:from-slate-600 dark:to-slate-400 group-hover:from-accent group-hover:to-blue-500 transition-all duration-500 rounded-full"
-                        style={{ width: `${Math.floor(Math.random() * (95 - 75) + 75)}%` }} // Randomized width
+                        className="h-full bg-gradient-to-r from-slate-400 to-slate-500 dark:from-slate-600 dark:to-slate-400 group-hover:from-accent group-hover:to-blue-500 transition-all duration-1000 ease-out rounded-full"
+                        style={{ width: `${skill.level}%` }}
                       ></div>
                     </div>
                   </div>

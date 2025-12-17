@@ -7,12 +7,18 @@ export interface ExperienceItem {
   achievements?: string[];
   technologies: string[];
   highlight?: string;
-  type: 'Full Stack' | 'Python' | 'Product Management';
+  type: 'Full Stack' | 'Python' | 'Product Management' | 'AI/ML';
+  images?: string[];
+}
+
+export interface Skill {
+  name: string;
+  level: number; // 0 to 100
 }
 
 export interface SkillCategory {
   title: string;
-  skills: string[];
+  skills: Skill[];
 }
 
 export interface SocialLink {
