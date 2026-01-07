@@ -76,9 +76,9 @@ export const Hero: React.FC = () => {
             <div className="absolute inset-0 bg-gradient-to-tr from-accent to-purple-500 rounded-[2rem] rotate-3 opacity-20 blur-xl"></div>
             <div className="relative w-full h-full rounded-[2rem] overflow-hidden border border-border shadow-2xl bg-secondary group">
                <div className="w-full h-full scale-x-[-1]">
-                 <img 
+               <img 
                    src="/portfolio.png" 
-                   alt="Samuel Girma Megra" 
+                 alt="Samuel Girma Megra" 
                    className="w-full h-full object-cover object-top transition-transform duration-700 group-hover:scale-105 filter grayscale hover:grayscale-0"
                  />
                </div>
