@@ -4,7 +4,7 @@ export const PERSONAL_INFO = {
   name: "Samuel Girma Megra",
   titles: ["Software Engineer", "Full Stack Developer"],
   email: "samigirma53@gmail.com",
-  summary: "A versatile software engineer with extensive experience in full-stack development and real-time computer vision systems. Proven track record of bridging the gap between development and operations, managing product lifecycles, and delivering critical solutions for enterprise clients."
+  summary: "A versatile software engineer with extensive experience in full-stack development and technical support roles. Proven track record of bridging the gap between development and operations, managing product lifecycles, and delivering critical solutions for enterprise clients."
 };
 
 export const SOCIAL_LINKS: SocialLink[] = [
