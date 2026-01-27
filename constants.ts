@@ -41,6 +41,29 @@ export const EXPERIENCE_DATA: ExperienceItem[] = [
     ]
   },
   {
+    id: 'divoorah',
+    company: 'Divoorah',
+    role: 'Full Stack Developer & Technical Support',
+    type: 'Full Stack',
+    description: 'Provided full-stack development and technical support for a food delivery platform, focusing on live operations and system stability.',
+    achievements: [
+      'Managed real-time bug fixes for live customers to prevent order cancellations and service disruptions.',
+      'Collaborated directly with management via Slack to triage and resolve critical issues in a high-pressure environment.',
+      'Identified and fixed a logic error in the backend code that prevented discount coupons from applying during a major marketing campaign.',
+      'Transitioned hotfixes into permanent solution tickets to improve long-term system reliability.'
+    ],
+    highlight: 'Diagnosed and fixed a complex backend logic error preventing discount coupons from applying, directly rescuing a marketing campaign.',
+    technologies: ['React', 'Node.js', 'Live Ops', 'Bug Fixing', 'Slack'],
+    images: [
+      '/divoora/Screenshot 2025-12-16 at 1.53.16 in the afternoon.png',
+      '/divoora/Screenshot 2025-12-16 at 1.53.36 in the afternoon.png',
+      '/divoora/Screenshot 2025-12-16 at 1.54.49 in the afternoon.png',
+      '/divoora/Screenshot 2025-12-16 at 1.55.08 in the afternoon.png',
+      '/divoora/Screenshot 2025-12-16 at 1.55.18 in the afternoon.png',
+      '/divoora/Screenshot 2025-12-16 at 1.56.03 in the afternoon.png'
+    ]
+  },
+  {
     id: 'elunic',
     company: 'Elunic',
     role: 'Full Stack Developer',
@@ -91,29 +114,6 @@ export const EXPERIENCE_DATA: ExperienceItem[] = [
       '/turing/Screenshot 2025-12-16 at 2.04.55 in the afternoon.png',
       '/turing/Screenshot 2025-12-16 at 2.05.41 in the afternoon.png',
       '/turing/Screenshot 2025-12-16 at 2.07.18 in the afternoon.png'
-    ]
-  },
-  {
-    id: 'divoorah',
-    company: 'Divoorah',
-    role: 'Full Stack Developer',
-    type: 'Full Stack',
-    description: 'Provided full-stack development and technical support for a food delivery platform, focusing on live operations and system stability.',
-    achievements: [
-      'Managed real-time bug fixes for live customers to prevent order cancellations and service disruptions.',
-      'Collaborated directly with management via Slack to triage and resolve critical issues in a high-pressure environment.',
-      'Identified and fixed a logic error in the backend code that prevented discount coupons from applying during a major marketing campaign.',
-      'Transitioned hotfixes into permanent solution tickets to improve long-term system reliability.'
-    ],
-    highlight: 'Diagnosed and fixed a complex backend logic error preventing discount coupons from applying, directly rescuing a marketing campaign.',
-    technologies: ['React', 'Node.js', 'Live Ops', 'Bug Fixing', 'Slack'],
-    images: [
-      '/divoora/Screenshot 2025-12-16 at 1.53.16 in the afternoon.png',
-      '/divoora/Screenshot 2025-12-16 at 1.53.36 in the afternoon.png',
-      '/divoora/Screenshot 2025-12-16 at 1.54.49 in the afternoon.png',
-      '/divoora/Screenshot 2025-12-16 at 1.55.08 in the afternoon.png',
-      '/divoora/Screenshot 2025-12-16 at 1.55.18 in the afternoon.png',
-      '/divoora/Screenshot 2025-12-16 at 1.56.03 in the afternoon.png'
     ]
   },
   {
