@@ -1,0 +1,145 @@
+PROPOSAL FOR: PHP Developer (Dubai, On-site Business Bay)
+
+---
+
+Hi [Hiring Manager],
+
+I'm a full-stack developer with 3+ years of experience building SaaS platforms and web applications. I'm excited about the opportunity to join your in-office team in Dubai and contribute to building robust client portals for advertising management.
+
+**Why I'm a Great Fit:**
+
+I have hands-on experience building production systems with PHP, MySQL, and API integrations:
+
+1. **At Elunic (Germany)** - Worked on microservices architecture for industrial IoT systems, including PHP-based services integrated with Docker and Azure Container Registry. Handled API development and cross-service communication.
+
+2. **At Escalate (Ethiopia)** - As part of an outsourcing team, I built the **Atrons Resource Sharing Platform** for Addis Ababa University using PHP and MySQL. This included user authentication, file management, and search functionality serving 500+ students.
+
+3. **At Cowsville (AAU)** - Built a full-scale SaaS platform for dairy farm management with Django backend and React frontend. Handled everything from database design (MySQL) to API development and third-party integrations (Afro Message API).
+
+**My Technical Strengths:**
+- **PHP:** Experience with both vanilla PHP and modern practices (OOP, MVC patterns, API development)
+- **MySQL/MariaDB:** Database design, query optimization, and migrations
+- **API Development:** RESTful APIs, authentication (JWT, session-based), third-party integrations
+- **Frontend:** React, TypeScript, HTML/CSS - I can bridge backend and frontend seamlessly
+- **DevOps:** Git workflows, Docker, CI/CD pipelines
+- **Team Collaboration:** Experience with sprint meetings, code reviews, and clear communication
+
+**Relevant Project Examples:**
+
+1. **Cowsville SaaS Platform** (GitHub: [link])
+   - Full-stack dairy farm management system
+   - MySQL database with complex relationships
+   - RESTful API with authentication
+   - React frontend consuming the API
+   - Third-party SMS API integration
+
+2. **RateEat Mobile App** (at Escalate)
+   - Restaurant rating platform
+   - Node.js/PHP backend with MySQL
+   - Flutter mobile frontend
+   - Team coordination and sprint planning
+
+3. **Atrons Resource Platform** (at Escalate)
+   - PHP-based university resource sharing
+   - User authentication and file management
+   - MySQL database optimization
+
+**Answers to Your Requirements:**
+
+**1. Current Location & Start Date:**
+I am currently in Addis Ababa, Ethiopia. I can relocate to Dubai within 2-3 weeks of receiving visa sponsorship. I am ready to commit long-term and work on-site in Business Bay.
+
+**2. Proof of Work:**
+- **GitHub:** github.com/samuel-girma-megra (Cowsville, portfolio projects)
+- **Portfolio:** [Vercel link - will provide]
+- **Upwork:** [If applicable]
+
+**3. Relevant PHP Projects:**
+
+**Project 1: Atrons Resource Sharing Platform (Escalate)**
+- **My Role:** Full-Stack Developer
+- **What I Built:** 
+  - User authentication system (registration, login, password reset)
+  - File upload and management system for sharing academic resources
+  - Search and filter functionality across 1000+ resources
+  - Admin dashboard for content moderation
+- **Tech Stack:** PHP, MySQL, HTML/CSS/JavaScript
+- **Impact:** Served 500+ university students, reduced resource-sharing friction
+
+**Project 2: Cowsville SaaS Platform (Addis Ababa University)**
+- **My Role:** Lead Developer
+- **What I Built:**
+  - RESTful API with 20+ endpoints
+  - MySQL database with 8 normalized tables
+  - Authentication and role-based access control
+  - Third-party API integration (Afro Message for SMS alerts)
+  - React frontend with real-time data synchronization
+- **Tech Stack:** Django (Python), MySQL, React - *Similar MVC architecture to PHP frameworks*
+- **Impact:** Managed 200+ dairy cows, automated health tracking and alerts
+
+**Project 3: Microservices at Elunic (Germany)**
+- **My Role:** Backend Developer
+- **What I Built:**
+  - Developed and maintained microservices for defect inspection system
+  - API endpoints for inter-service communication
+  - Docker containerization and deployment to Azure Container Registry
+  - Database optimization for handling image processing data
+- **Tech Stack:** Python, Node.js, PHP, Docker, MySQL
+
+**4. API Experience:**
+
+I have extensive experience building and integrating APIs:
+
+**APIs I've Built:**
+- **Cowsville API:** 20+ RESTful endpoints (CRUD for cows, health records, alerts, users)
+- **Authentication APIs:** JWT-based and session-based authentication systems
+- **Webhook handlers:** For processing third-party callbacks (SMS delivery status)
+
+**APIs I've Integrated:**
+- **Afro Message API:** SMS sending and delivery tracking
+- **Payment Gateway APIs:** (at Escalate projects)
+- **Social Media APIs:** For data synchronization projects
+
+**API Best Practices I Follow:**
+- RESTful conventions (proper HTTP methods and status codes)
+- Input validation and sanitization
+- Error handling with meaningful messages
+- API versioning (e.g., `/api/v1/`)
+- Rate limiting and authentication
+- Clear documentation
+
+**Why I Want This Role:**
+
+I'm looking for a long-term position where I can grow with an ambitious team. I value in-office collaboration and want to be part of building something significant. The SaaS portal work you're doing aligns perfectly with my experience, and I'm excited about the opportunity to work on systems that directly impact clients' advertising operations.
+
+**My Commitment:**
+- Full-time, long-term commitment
+- On-site work in Business Bay (no remote requests)
+- Clear communication and regular status updates
+- Ownership mindset - I take responsibility for my code
+- Continuous learning and adapting to your team's practices
+
+**Availability:**
+I can start within 2-3 weeks of visa approval. I'm available for an interview at your convenience (I can adjust to UAE time zones).
+
+**Rate Expectation:**
+$15-18/hour depending on the final scope and growth opportunities.
+
+I'm not an agency - I'm an individual developer looking for a long-term home with a growing team. I'm excited about the opportunity to contribute to your platforms and grow my skills alongside your company.
+
+Looking forward to discussing how I can add value to your team.
+
+Best regards,
+Samuel Girma Megra
+
+**Contact:**
+- Email: [your email]
+- Phone: [your phone]
+- GitHub: github.com/samuel-girma-megra
+- Portfolio: [Vercel link]
+- LinkedIn: [if you have one]
+
+---
+
+P.S. I understand you're building a core team of 3-4 developers. I'm exactly the type of developer who wants to be part of that foundation - someone who takes ownership, communicates clearly, and is committed for the long haul.
+
