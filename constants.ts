@@ -16,31 +16,6 @@ export const SOCIAL_LINKS: SocialLink[] = [
 
 export const EXPERIENCE_DATA: ExperienceItem[] = [
   {
-    id: 'turing',
-    company: 'Turing',
-    role: 'AI/ML Engineer',
-    type: 'AI/ML',
-    description: 'Specialized in SFT (Supervised Fine-Tuning) dataset generation for large language models through RLHF (Reinforcement Learning from Human Feedback), focusing on Gemini\'s visualization capabilities.',
-    achievements: [
-      'Generated and crafted high-quality datasets for training large language models using RLHF methodologies.',
-      'Conducted comparative analysis and evaluations of Gemini\'s data visualization outputs using Matplotlib, Altair, and other visualization libraries.',
-      'Performed comprehensive dataset crafting to improve model performance on visualization tasks.',
-      'Evaluated agentic workflows of Gemini through simulated APIs, testing autonomous decision-making capabilities.',
-      'Contributed to improving LLM performance through systematic evaluation and feedback loops.'
-    ],
-    highlight: 'Led dataset generation and evaluation for Gemini LLM, focusing on visualization capabilities and agentic workflow assessments.',
-    technologies: ['Python', 'RLHF', 'Gemini', 'Matplotlib', 'Altair', 'LLM Evaluation', 'Dataset Generation', 'API Simulation'],
-    images: [
-      '/turing/Screenshot 2025-12-16 at 2.02.55 in the afternoon.png',
-      '/turing/Screenshot 2025-12-16 at 2.03.43 in the afternoon.png',
-      '/turing/Screenshot 2025-12-16 at 2.04.12 in the afternoon.png',
-      '/turing/Screenshot 2025-12-16 at 2.04.24 in the afternoon.png',
-      '/turing/Screenshot 2025-12-16 at 2.04.55 in the afternoon.png',
-      '/turing/Screenshot 2025-12-16 at 2.05.41 in the afternoon.png',
-      '/turing/Screenshot 2025-12-16 at 2.07.18 in the afternoon.png'
-    ]
-  },
-  {
     id: 'divoorah',
     company: 'Divoorah',
     role: 'Full Stack Developer',
@@ -86,7 +61,32 @@ export const EXPERIENCE_DATA: ExperienceItem[] = [
       '/rateeat/Screenshot 2025-12-16 at 1.21.47 in the afternoon.png',
       '/rateeat/Screenshot 2025-12-16 at 1.22.17 in the afternoon.png'
     ]
-  }
+  },
+  {
+  id: 'turing',
+    company: 'Turing',
+    role: 'AI/ML Engineer',
+    type: 'AI/ML',
+    description: 'Specialized in SFT (Supervised Fine-Tuning) dataset generation for large language models through RLHF (Reinforcement Learning from Human Feedback), focusing on Gemini\'s visualization capabilities.',
+    achievements: [
+      'Generated and crafted high-quality datasets for training large language models using RLHF methodologies.',
+      'Conducted comparative analysis and evaluations of Gemini\'s data visualization outputs using Matplotlib, Altair, and other visualization libraries.',
+      'Performed comprehensive dataset crafting to improve model performance on visualization tasks.',
+      'Evaluated agentic workflows of Gemini through simulated APIs, testing autonomous decision-making capabilities.',
+      'Contributed to improving LLM performance through systematic evaluation and feedback loops.'
+    ],
+    highlight: 'Led dataset generation and evaluation for Gemini LLM, focusing on visualization capabilities and agentic workflow assessments.',
+    technologies: ['Python', 'RLHF', 'Gemini', 'Matplotlib', 'Altair', 'LLM Evaluation', 'Dataset Generation', 'API Simulation'],
+    images: [
+      '/turing/Screenshot 2025-12-16 at 2.02.55 in the afternoon.png',
+      '/turing/Screenshot 2025-12-16 at 2.03.43 in the afternoon.png',
+      '/turing/Screenshot 2025-12-16 at 2.04.12 in the afternoon.png',
+      '/turing/Screenshot 2025-12-16 at 2.04.24 in the afternoon.png',
+      '/turing/Screenshot 2025-12-16 at 2.04.55 in the afternoon.png',
+      '/turing/Screenshot 2025-12-16 at 2.05.41 in the afternoon.png',
+      '/turing/Screenshot 2025-12-16 at 2.07.18 in the afternoon.png'
+    ]
+  },
 ];
 
 export const SKILL_CATEGORIES: SkillCategory[] = [
