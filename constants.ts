@@ -16,58 +16,6 @@ export const SOCIAL_LINKS: SocialLink[] = [
 
 export const EXPERIENCE_DATA: ExperienceItem[] = [
   {
-    id: 'elunic',
-    company: 'Elunic',
-    role: 'Full Stack Developer',
-    type: 'Full Stack',
-    description: 'Worked for a German computer vision company providing AI defect detection services for major automotive and manufacturing clients (VW, BMW, Lego).',
-    achievements: [
-      'Developed and maintained full-stack web applications using React (frontend) and NestJS (backend) with MySQL databases.',
-      'Created and deployed a custom Python script for Lego to automate the collection of box images and barcode data, streamlining the defect analysis pipeline.',
-      'Facilitated successful production runs for 4 weeks collecting multiple datasets for AI model training.',
-      'Managed remote deployment and configuration of systems on client sites via TeamViewer and Windows remote tools.',
-      'Maintained direct on-call communication with client developers to ensure seamless integration and issue resolution.'
-    ],
-    highlight: 'Successfully developed and deployed a critical data collection script for Lego used in production defect analysis.',
-    technologies: ['React', 'NestJS', 'MySQL', 'Python', 'Computer Vision', 'TeamViewer'],
-    images: [
-      '/elunic/Screenshot 2025-12-16 at 1.27.20 in the afternoon.png',
-      '/elunic/Screenshot 2025-12-16 at 1.27.44 in the afternoon.png',
-      '/elunic/Screenshot 2025-12-16 at 1.29.03 in the afternoon.png',
-      '/elunic/Screenshot 2025-12-16 at 1.29.29 in the afternoon.png',
-      '/elunic/Screenshot 2025-12-16 at 2.09.14 in the afternoon.png',
-      '/elunic/Screenshot 2025-12-16 at 2.09.50 in the afternoon.png',
-      '/elunic/Screenshot 2025-12-16 at 2.09.56 in the afternoon.png',
-      '/elunic/Screenshot 2025-12-16 at 2.10.26 in the afternoon.png',
-      '/elunic/Screenshot 2025-12-16 at 2.10.42 in the afternoon.png'
-    ]
-  },
-  {
-    id: 'cowsville',
-    company: 'Cowsville - Addis Ababa University Veterinary Campus',
-    role: 'Full Stack Developer',
-    type: 'Full Stack',
-    description: 'Developed a comprehensive cow health and productivity management system aimed at increasing milk production efficiency through controlled monitoring of cow estrus cycles.',
-    achievements: [
-      'Built a full-stack application to track cow estrus cycles and provide timely alerts for farmers, inseminators, and veterinarians.',
-      'Implemented automated notification system using Afro Message API to alert stakeholders when cows need insemination or health checkups.',
-      'Developed the backend using Django with MySQL database for reliable data management and tracking.',
-      'Initially built the frontend with HTML, CSS, and JavaScript, later migrated to React for improved user experience and maintainability.',
-      'Created a dashboard for monitoring multiple cows\' health status and reproductive cycles in real-time.'
-    ],
-    highlight: 'Successfully developed a livestock management system that helps farmers optimize milk production through timely health monitoring and insemination alerts.',
-    technologies: ['Django', 'React', 'JavaScript', 'HTML/CSS', 'MySQL', 'Afro Message API'],
-    images: [
-      '/cowsville/Screenshot 2025-12-16 at 1.03.52 in the afternoon.png',
-      '/cowsville/Screenshot 2025-12-16 at 1.04.07 in the afternoon.png',
-      '/cowsville/Screenshot 2025-12-16 at 1.04.20 in the afternoon.png',
-      '/cowsville/Screenshot 2025-12-16 at 1.04.29 in the afternoon.png',
-      '/cowsville/Screenshot 2025-12-16 at 1.04.37 in the afternoon.png',
-      '/cowsville/Screenshot 2025-12-16 at 1.04.49 in the afternoon.png',
-      '/cowsville/Screenshot 2025-12-16 at 1.05.54 in the afternoon.png'
-    ]
-  },
-  {
     id: 'turing',
     company: 'Turing',
     role: 'AI/ML Engineer',
