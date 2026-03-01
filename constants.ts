@@ -16,6 +16,83 @@ export const SOCIAL_LINKS: SocialLink[] = [
 
 export const EXPERIENCE_DATA: ExperienceItem[] = [
   {
+    id: 'elunic',
+    company: 'Elunic',
+    role: 'Full Stack Developer',
+    type: 'Full Stack',
+    description: 'Worked for a German computer vision company providing AI defect detection services for major automotive and manufacturing clients (VW, BMW, Lego).',
+    achievements: [
+      'Developed and maintained full-stack web applications using React (frontend) and NestJS (backend) with MySQL databases.',
+      'Created and deployed a custom Python script for Lego to automate the collection of box images and barcode data, streamlining the defect analysis pipeline.',
+      'Facilitated successful production runs for 4 weeks collecting multiple datasets for AI model training.',
+      'Managed remote deployment and configuration of systems on client sites via TeamViewer and Windows remote tools.',
+      'Maintained direct on-call communication with client developers to ensure seamless integration and issue resolution.'
+    ],
+    highlight: 'Successfully developed and deployed a critical data collection script for Lego used in production defect analysis.',
+    technologies: ['React', 'NestJS', 'MySQL', 'Python', 'Computer Vision', 'TeamViewer'],
+    images: [
+      '/elunic/Screenshot 2025-12-16 at 1.27.20 in the afternoon.png',
+      '/elunic/Screenshot 2025-12-16 at 1.27.44 in the afternoon.png',
+      '/elunic/Screenshot 2025-12-16 at 1.29.03 in the afternoon.png',
+      '/elunic/Screenshot 2025-12-16 at 1.29.29 in the afternoon.png',
+      '/elunic/Screenshot 2025-12-16 at 2.09.14 in the afternoon.png',
+      '/elunic/Screenshot 2025-12-16 at 2.09.50 in the afternoon.png',
+      '/elunic/Screenshot 2025-12-16 at 2.09.56 in the afternoon.png',
+      '/elunic/Screenshot 2025-12-16 at 2.10.26 in the afternoon.png',
+      '/elunic/Screenshot 2025-12-16 at 2.10.42 in the afternoon.png'
+    ]
+  },
+  {
+    id: 'cowsville',
+    company: 'Cowsville - Addis Ababa University Veterinary Campus',
+    role: 'Full Stack Developer',
+    type: 'Full Stack',
+    description: 'Developed a comprehensive cow health and productivity management system aimed at increasing milk production efficiency through controlled monitoring of cow estrus cycles.',
+    achievements: [
+      'Built a full-stack application to track cow estrus cycles and provide timely alerts for farmers, inseminators, and veterinarians.',
+      'Implemented automated notification system using Afro Message API to alert stakeholders when cows need insemination or health checkups.',
+      'Developed the backend using Django with MySQL database for reliable data management and tracking.',
+      'Initially built the frontend with HTML, CSS, and JavaScript, later migrated to React for improved user experience and maintainability.',
+      'Created a dashboard for monitoring multiple cows\' health status and reproductive cycles in real-time.'
+    ],
+    highlight: 'Successfully developed a livestock management system that helps farmers optimize milk production through timely health monitoring and insemination alerts.',
+    technologies: ['Django', 'React', 'JavaScript', 'HTML/CSS', 'MySQL', 'Afro Message API'],
+    images: [
+      '/cowsville/Screenshot 2025-12-16 at 1.03.52 in the afternoon.png',
+      '/cowsville/Screenshot 2025-12-16 at 1.04.07 in the afternoon.png',
+      '/cowsville/Screenshot 2025-12-16 at 1.04.20 in the afternoon.png',
+      '/cowsville/Screenshot 2025-12-16 at 1.04.29 in the afternoon.png',
+      '/cowsville/Screenshot 2025-12-16 at 1.04.37 in the afternoon.png',
+      '/cowsville/Screenshot 2025-12-16 at 1.04.49 in the afternoon.png',
+      '/cowsville/Screenshot 2025-12-16 at 1.05.54 in the afternoon.png'
+    ]
+  },
+  {
+    id: 'turing',
+    company: 'Turing',
+    role: 'AI/ML Engineer',
+    type: 'AI/ML',
+    description: 'Specialized in SFT (Supervised Fine-Tuning) dataset generation for large language models through RLHF (Reinforcement Learning from Human Feedback), focusing on Gemini\'s visualization capabilities.',
+    achievements: [
+      'Generated and crafted high-quality datasets for training large language models using RLHF methodologies.',
+      'Conducted comparative analysis and evaluations of Gemini\'s data visualization outputs using Matplotlib, Altair, and other visualization libraries.',
+      'Performed comprehensive dataset crafting to improve model performance on visualization tasks.',
+      'Evaluated agentic workflows of Gemini through simulated APIs, testing autonomous decision-making capabilities.',
+      'Contributed to improving LLM performance through systematic evaluation and feedback loops.'
+    ],
+    highlight: 'Led dataset generation and evaluation for Gemini LLM, focusing on visualization capabilities and agentic workflow assessments.',
+    technologies: ['Python', 'RLHF', 'Gemini', 'Matplotlib', 'Altair', 'LLM Evaluation', 'Dataset Generation', 'API Simulation'],
+    images: [
+      '/turing/Screenshot 2025-12-16 at 2.02.55 in the afternoon.png',
+      '/turing/Screenshot 2025-12-16 at 2.03.43 in the afternoon.png',
+      '/turing/Screenshot 2025-12-16 at 2.04.12 in the afternoon.png',
+      '/turing/Screenshot 2025-12-16 at 2.04.24 in the afternoon.png',
+      '/turing/Screenshot 2025-12-16 at 2.04.55 in the afternoon.png',
+      '/turing/Screenshot 2025-12-16 at 2.05.41 in the afternoon.png',
+      '/turing/Screenshot 2025-12-16 at 2.07.18 in the afternoon.png'
+    ]
+  },
+  {
     id: 'divoorah',
     company: 'Divoorah',
     role: 'Full Stack Developer',
@@ -61,32 +138,7 @@ export const EXPERIENCE_DATA: ExperienceItem[] = [
       '/rateeat/Screenshot 2025-12-16 at 1.21.47 in the afternoon.png',
       '/rateeat/Screenshot 2025-12-16 at 1.22.17 in the afternoon.png'
     ]
-  },
-  {
-  id: 'turing',
-    company: 'Turing',
-    role: 'AI/ML Engineer',
-    type: 'AI/ML',
-    description: 'Specialized in SFT (Supervised Fine-Tuning) dataset generation for large language models through RLHF (Reinforcement Learning from Human Feedback), focusing on Gemini\'s visualization capabilities.',
-    achievements: [
-      'Generated and crafted high-quality datasets for training large language models using RLHF methodologies.',
-      'Conducted comparative analysis and evaluations of Gemini\'s data visualization outputs using Matplotlib, Altair, and other visualization libraries.',
-      'Performed comprehensive dataset crafting to improve model performance on visualization tasks.',
-      'Evaluated agentic workflows of Gemini through simulated APIs, testing autonomous decision-making capabilities.',
-      'Contributed to improving LLM performance through systematic evaluation and feedback loops.'
-    ],
-    highlight: 'Led dataset generation and evaluation for Gemini LLM, focusing on visualization capabilities and agentic workflow assessments.',
-    technologies: ['Python', 'RLHF', 'Gemini', 'Matplotlib', 'Altair', 'LLM Evaluation', 'Dataset Generation', 'API Simulation'],
-    images: [
-      '/turing/Screenshot 2025-12-16 at 2.02.55 in the afternoon.png',
-      '/turing/Screenshot 2025-12-16 at 2.03.43 in the afternoon.png',
-      '/turing/Screenshot 2025-12-16 at 2.04.12 in the afternoon.png',
-      '/turing/Screenshot 2025-12-16 at 2.04.24 in the afternoon.png',
-      '/turing/Screenshot 2025-12-16 at 2.04.55 in the afternoon.png',
-      '/turing/Screenshot 2025-12-16 at 2.05.41 in the afternoon.png',
-      '/turing/Screenshot 2025-12-16 at 2.07.18 in the afternoon.png'
-    ]
-  },
+  }
 ];
 
 export const SKILL_CATEGORIES: SkillCategory[] = [
