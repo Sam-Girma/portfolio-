@@ -7,7 +7,7 @@ export interface ExperienceItem {
   achievements?: string[];
   technologies: string[];
   highlight?: string;
-  type: 'Full Stack' | 'Python' | 'Product Management' | 'AI/ML';
+  type: 'Full Stack' | 'Python' | 'Product Management' | 'AI/ML' | 'DevOps' | 'Automation';
   images?: string[];
 }
 

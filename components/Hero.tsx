@@ -79,6 +79,9 @@ export const Hero: React.FC = () => {
                <img 
                    src="/portfolio.png" 
                  alt="Samuel Girma Megra" 
+                   loading="eager"
+                   decoding="async"
+                   fetchPriority="high"
                    className="w-full h-full object-cover object-top transition-transform duration-700 group-hover:scale-105 filter grayscale hover:grayscale-0"
                  />
                </div>

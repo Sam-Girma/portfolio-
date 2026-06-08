@@ -1,12 +1,13 @@
 import React from 'react';
 import { SKILL_CATEGORIES } from '../constants';
-import { Code2, Database, Layout, MessageSquare } from 'lucide-react';
+import { Code2, Database, Layout, MessageSquare, Server } from 'lucide-react';
 
 export const Skills: React.FC = () => {
   const getIcon = (title: string) => {
     switch (title) {
       case 'Frontend': return <Layout className="text-blue-500" />;
       case 'Backend': return <Code2 className="text-emerald-500" />;
+      case 'DevOps & Infrastructure': return <Server className="text-cyan-500" />;
       case 'Databases': return <Database className="text-purple-500" />;
       case 'Tools & Platforms': return <MessageSquare className="text-orange-500" />;
       default: return <Code2 className="text-gray-500" />;
