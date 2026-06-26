@@ -30,7 +30,7 @@ export const EXPERIENCE_DATA: ExperienceItem[] = [
       'Maintained direct on-call communication with client developers, troubleshooting integration and deployment issues in real time and clearly communicating fixes.'
     ],
     highlight: 'Kept production defect-analysis pipelines running on Kubernetes across client sites, debugging live issues to root cause while supporting client engineers on-call.',
-    technologies: ['Kubernetes', 'Docker', 'Linux', 'React', 'NestJS', 'MySQL', 'Python', 'Computer Vision'],
+    technologies: ['Kubernetes', 'Docker', 'Linux', 'React', 'NestJS', 'PHP', 'MySQL', 'Python', 'Computer Vision'],
     images: [
       '/elunic/Screenshot 2025-12-16 at 1.27.20 in the afternoon.png',
       '/elunic/Screenshot 2025-12-16 at 1.27.44 in the afternoon.png',
